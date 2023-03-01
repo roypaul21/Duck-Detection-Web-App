@@ -20,6 +20,7 @@ eggs/
 .eggs/
 lib/
 lib64/
+done_detect/
 parts/
 sdist/
 var/
@@ -39,7 +40,8 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
+traced_model.pt
+best.pt
 # Unit test / coverage reports
 htmlcov/
 .tox/
@@ -171,3 +173,5 @@ poetry.toml
 .ruff_cache/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+*.csv

@@ -7,8 +7,32 @@ h1 {
 div.css-6qob1r.e1fqkh3o3 {
     background-color: rgb(120, 182, 233);
     border: 3px solid rgb(120, 182, 233);
+    box-shadow: 7px 7px 5px gray;
 }
 
-/*confidence thresh */
 
+/*result / output */
+[data-testid="metric-container"]{
+    background-color: #EEEE;
+    border: 1px solid #dcdcdc;
+    color: black;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px gray;
+    
+}
 
+[data-testid="metric-container"] p{
+    color: darkgoldenrod; 
+    font-size: 18px;
+    font-family: Arial, Helvetica;
+}
+
+.DCA {
+    padding-top: 30px;
+    font-size: 180%;
+    color: blueviolet;
+  }
